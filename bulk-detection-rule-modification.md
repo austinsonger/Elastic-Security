@@ -90,6 +90,7 @@ curl  -XGET https://(System Generated ID).eastus2.azure.elastic-cloud.com:9243/a
 ]
 ```
 
+You will need to switch certain variables with yours.
 
 
 
