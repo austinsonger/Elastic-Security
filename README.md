@@ -1,6 +1,6 @@
 # Elastic Security
 
-- [Bulk Detection Rule Modification](/bulk-detection-rule-modification.md)
+- [Bulk Detection Rule Modification via Detection API](/bulk-detection-rule-modification.md)
   - [bulk-detection-rule-changer.sh](/bulk-detection-rule-changer.sh) 
 
 
