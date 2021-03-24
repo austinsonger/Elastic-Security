@@ -5,7 +5,9 @@
 
 `username:password` 
 
-![]()
+> And you can go to https://www.base64encode.org to do this.
+
+![](https://i.imgur.com/0hsvOwC.jpg)
 
 #### Result
 
@@ -13,26 +15,33 @@
 dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
-#### Encoded Base64 Output
+### Encoded Base64 Output
 
-'Authorization: Basic <Encoded Base64>'
+'Authorization: Basic (Encoded Base64)'
+
+```bash
+curl  -XGET https://(System Generated ID).eastus2.azure.elastic-cloud.com:9243/api/actions --header 'kbn-xsrf: kibana' --header 'Content-Type: multipart/form-data' --header 'Authorization: Basic (Encoded Base64)'
+```
+
+#### Example
 
 'Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ='
 
-
+**Load Elastic Action ID's**
+```bash
+curl  -XGET https://(System Generated ID).eastus2.azure.elastic-cloud.com:9243/api/actions --header 'kbn-xsrf: kibana' --header 'Content-Type: multipart/form-data' --header 'Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ='
 ```
-curl  -XGET https://<System Generated ID>.eastus2.azure.elastic-cloud.com:9243/api/actions --header 'kbn-xsrf: kibana' --header 'Content-Type: multipart/form-data' --header 'Authorization: Basic <Encoded Base64>'
-```
 
+**Output**
 
-```
+```json
 [
    {
-      "id": "<Action ID>",
+      "id": "(Action ID)",
       "actionTypeId": ".jira",
       "name": "JIRA",
       "config": {
-         "apiUrl": "https://<JIRA Instance>.atlassian.net",
+         "apiUrl": "https://(JIRA Instance).atlassian.net",
          "projectKey": "SOC",
          "incidentConfiguration": null,
          "isCaseOwned": null
@@ -41,7 +50,7 @@ curl  -XGET https://<System Generated ID>.eastus2.azure.elastic-cloud.com:9243/a
       "referencedByCount": 266
    },
    {
-      "id": "<Action ID>",
+      "id": "(Action ID)",
       "actionTypeId": ".server-log",
       "name": "Monitoring: Write to Kibana log",
       "config": {},
@@ -49,11 +58,11 @@ curl  -XGET https://<System Generated ID>.eastus2.azure.elastic-cloud.com:9243/a
       "referencedByCount": 10
    },
    {
-      "id": "<Action ID>",
+      "id": "(Action ID)",
       "actionTypeId": ".jira",
       "name": "Security Operations Center",
       "config": {
-         "apiUrl": "https://<JIRA Instance>.atlassian.net",
+         "apiUrl": "https://(JIRA Instance).atlassian.net",
          "projectKey": "ES",
          "incidentConfiguration": {
             "mapping": [
