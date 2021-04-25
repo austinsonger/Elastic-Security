@@ -2,6 +2,9 @@
 
 
 
-- [Bulk Detection Rule Modification to JIRA via Detection API (Markdown File)](/Bulk Rule Modification/README.md)
-  - [bulk-detection-rule-changer.sh](/Bulk Rule Modification/bulk-detection-rule-changer-for-JIRA.sh) 
-- [Elastic Rules CLI Docker](/Elastic Rules CLI Docker/README.md)
+- [Bulk Detection Rule Modification to JIRA via Detection API (Markdown File)](/Bulk%20Rule%20Modification/README.md)
+  - [bulk-detection-rule-changer.sh](/Bulk%20Rule%20Modification/bulk-detection-rule-changer-for-JIRA.sh) 
+- [Elastic Rules CLI Docker](/Elastic%20Rules%20CLI%20Docker/README.md)
+
+
+
