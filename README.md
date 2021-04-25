@@ -2,7 +2,7 @@
 
 
 
-- [Bulk Detection Rule Modification via Detection API](/bulk-detection-rule-modification-out-going-alert-to-JIRA.md)
+- [Bulk Detection Rule Modification via Detection API (Markdown File)](/bulk-detection-rule-modification-out-going-alert-to-JIRA.md)
   - [bulk-detection-rule-changer.sh](/bulk-detection-rule-changer-for-JIRA.sh) 
 
 
