@@ -2,8 +2,8 @@
 
 
 
-- [Bulk Detection Rule Modification via Detection API (Markdown File)](/bulk-detection-rule-modification-out-going-alert-to-JIRA.md)
-  - [bulk-detection-rule-changer.sh](/bulk-detection-rule-changer-for-JIRA.sh) 
+- [Bulk Detection Rule Modification via Detection API (Markdown File)](/Bulk Rule Modification/bulk-detection-rule-modification-out-going-alert-to-JIRA.md)
+  - [bulk-detection-rule-changer.sh](/Bulk Rule Modification/bulk-detection-rule-changer-for-JIRA.sh) 
 
 
 ## Tools to Install
