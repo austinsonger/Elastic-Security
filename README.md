@@ -2,15 +2,6 @@
 
 
 
-- [Bulk Detection Rule Modification via Detection API (Markdown File)](/Bulk Rule Modification/bulk-detection-rule-modification-out-going-alert-to-JIRA.md)
+- [Bulk Detection Rule Modification to JIRA via Detection API (Markdown File)](/Bulk Rule Modification/README.md)
   - [bulk-detection-rule-changer.sh](/Bulk Rule Modification/bulk-detection-rule-changer-for-JIRA.sh) 
-
-
-## Tools to Install
-
-### JQ 
-- jq 1.5 is in the official Debian and Ubuntu repositories. Install using `sudo apt-get install jq`.
-- jq 1.5 is in the official Fedora repository. Install using `sudo dnf install jq`.
-- jq 1.4 is in the official openSUSE repository. Install using `sudo zypper install jq`.
-- jq 1.5 is in the official Arch repository. Install using `sudo pacman -S jq`.
-
+- [Elastic Rules CLI Docker](/Elastic Rules CLI Docker/README.md)
