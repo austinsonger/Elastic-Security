@@ -1,0 +1,18 @@
+logging:
+  level: info
+  metrics.enabled: false
+
+output.logstash:
+  hosts: ["207.191.226.205:5044"]
+
+filebeat.modules:
+  - module: suricata
+    eve:
+      enabled: true
+      var.paths: ["/var/log/suricata/eve.json"]
+  - module: fortinet
+    firewall:
+      enabled: true
+      var.input: udp
+      var.syslog_host: 0.0.0.0
+      var.syslog_port: 9004

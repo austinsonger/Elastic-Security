@@ -1,0 +1,7 @@
+heartbeat.config.monitors:
+  path: /monitors/*.yml
+  reload.enabled: true
+  reload.period: 1s
+
+processors:
+- add_cloud_metadata: ~

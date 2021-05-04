@@ -1,0 +1,34 @@
+version: '2'
+services:
+  suricata:
+    build: "./suricata"
+    network_mode: host
+    cap_add:
+      - net_admin
+      - sys_nice
+    volumes:
+      - suricataLogs:/var/log/suricata
+      - suricataData:/var/lib/suricata
+  filebeat:
+    build: "./filebeat"
+    network_mode: host
+    volumes:
+      - suricataLogs:/var/log/suricata
+  heartbeat:
+    build: "./heartbeat"
+    network_mode: host
+    volumes:
+      - heartbeatMonitors:/monitors
+  openvas:
+    image: securecompliance/openvas
+    network_mode: host
+    volumes:
+      - scannerData:/data
+    cap_add:
+      - net_admin
+      - sys_nice
+volumes:
+  suricataLogs: {}
+  suricataData: {}
+  scannerData: {}
+  heartbeatMonitors: {}
