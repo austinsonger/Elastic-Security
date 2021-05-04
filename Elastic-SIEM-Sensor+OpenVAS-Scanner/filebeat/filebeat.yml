@@ -3,7 +3,7 @@ logging:
   metrics.enabled: false
 
 output.logstash:
-  hosts: ["207.191.226.205:5044"]
+  hosts: ["##.##.##.##:5044"]
 
 filebeat.modules:
   - module: suricata
